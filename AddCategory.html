@@ -32,7 +32,7 @@
     
     </head>
     
-    <body>
+    <body class="pmd-body-open">
     <!-- Header Starts -->
     <!--Start Nav bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top pmd-navbar pmd-z-depth">
@@ -52,7 +52,7 @@
     <!-- Header Ends -->
     
     <!-- Sidebar Starts -->
-    <div class="pmd-sidebar-overlay"></div>
+    <div class="pmd-sidebar-overlay pmd-sidebar-overlay-active"></div>
     
     <!-- Left sidebar -->
     <aside id="basicSidebar" class="pmd-sidebar  sidebar-default pmd-sidebar-left bg-fill-darkblue sidebar-with-icons is-slidepush pmd-sidebar-left-fixed" role="navigation">
@@ -106,7 +106,21 @@
     <li><a href="ViewUsers.html" class="active">View User</a></li>
                     <li><a href="DeleteUser.html">Delete User</a></li>
                     <li><a href="shadow.html">Black List</a></li>
-    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                 </ul></div>
             </li>
             <li class="dropdown pmd-dropdown"> 
@@ -158,7 +172,7 @@
     <div id="content" class="pmd-content content-area dashboard">
     
         <div class="container-fluid">
-    <h2>Add User</h2>
+    <h2>Add Category</h2>
             <div class="row" id="card-masonry">
     <form id="validationForm" action="" method="post">
 			<div class="pmd-card pmd-z-depth">
@@ -174,101 +188,9 @@
 						</div>
 					</div>
 					<div class="group-fields clearfix row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<div class="form-group pmd-textfield pmd-textfield-floating-label">       
-								<label>City*</label>
-								<select class="select-simple form-control pmd-select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-									<option></option>
-									<option>Dallas Cowboys</option>
-									<option>New York Giants</option>
-									<option>Philadelphia Eagles</option>
-									<option>Washington Redskins</option>
-									<option>Chicago Bears</option>
-									<option>Detroit Lions</option>
-									<option>Green Bay Packers</option>
-									<option>Minnesota Vikings</option>
-									<option>Arizona Cardinals</option>
-									<option>St. Louis Rams</option>
-									<option>San Francisco 49ers</option>
-									<option>Seattle Seahawks</option>
-									<option>Baltimore Ravens</option>
-									<option>Cincinnati Bengals</option>
-									<option>Cleveland Browns</option>
-									<option>Pittsburgh Steelers</option>
-									<option>Houston Texans</option>
-									<option>Indianapolis Colts</option>
-									<option>Jacksonville Jaguars</option>
-									<option>Tennessee Titans</option>
-									<option>Denver Broncos</option>
-									<option>Kansas City Chiefs</option>
-									<option>Oakland Raiders</option>
-									<option>San Diego Chargers</option>
-								</select><span class="pmd-textfield-focused"></span><span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 236px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-41vk-container"><span class="select2-selection__rendered" id="select2-41vk-container" title=""></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<div class="form-group pmd-textfield pmd-textfield-floating-label">       
-								<label>State*</label>
-								<select class="select-simple form-control pmd-select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-									<option></option>
-									<option>Dallas Cowboys</option>
-									<option>New York Giants</option>
-									<option>Philadelphia Eagles</option>
-									<option>Washington Redskins</option>
-									<option>Chicago Bears</option>
-									<option>Detroit Lions</option>
-									<option>Green Bay Packers</option>
-									<option>Minnesota Vikings</option>
-									<option>Arizona Cardinals</option>
-									<option>St. Louis Rams</option>
-									<option>San Francisco 49ers</option>
-									<option>Seattle Seahawks</option>
-									<option>Baltimore Ravens</option>
-									<option>Cincinnati Bengals</option>
-									<option>Cleveland Browns</option>
-									<option>Pittsburgh Steelers</option>
-									<option>Houston Texans</option>
-									<option>Indianapolis Colts</option>
-									<option>Jacksonville Jaguars</option>
-									<option>Tennessee Titans</option>
-									<option>Denver Broncos</option>
-									<option>Kansas City Chiefs</option>
-									<option>Oakland Raiders</option>
-									<option>San Diego Chargers</option>
-								</select><span class="pmd-textfield-focused"></span><span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 236px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-20u5-container"><span class="select2-selection__rendered" id="select2-20u5-container" title=""></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<div class="form-group pmd-textfield pmd-textfield-floating-label">
-								<label for="regular1" class="control-label">
-									Zip Code*
-								</label>
-								<input type="text" id="regular1" class="form-control"><span class="pmd-textfield-focused"></span>
-							</div>
-						</div>
-					</div>
-					<div class="group-fields clearfix row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="form-group pmd-textfield pmd-textfield-floating-label">
-							   <label for="regular1" class="control-label">
-								 Phone*
-							   </label>
-							   <input type="text" id="regular1" class="form-control"><span class="pmd-textfield-focused"></span>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						   <div class="form-group pmd-textfield pmd-textfield-floating-label">
-							   <label for="regular1" class="control-label">
-								 Email*
-							   </label>
-							   <input type="text" id="regular1" class="form-control"><span class="pmd-textfield-focused"></span>
-							</div>
-						</div>
-					</div>
-					<div class="group-fields clearfix row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<div class="form-group pmd-textfield pmd-textfield-floating-label">
-							  <label class="control-label">Address</label>
+							  <label class="control-label">Description*</label>
 							  <textarea required="" class="form-control"></textarea><span class="pmd-textfield-focused"></span>
 							</div>
 						</div>
@@ -294,6 +216,42 @@
              
               
              
+             <!-- Propeller Marketplace-->
+             <!-- end Propeller Marketplace -->
+             
+             <!--Statistics-->
+             <!-- end statistics-->
+             
+              <!-- User details-->
+             <!-- end User Details-->
+             
+             <!--Todo Lists -->
+             <!--end Todo Lists-->
+             
+                 
+             
+             <!--Browser Usage card-->
+             <!--end Browser Usage card-->
+             
+             
+             
+             <!--Recent Posts-->
+             	
+             
+             <!--project progress -->
+              <!-- end project progress -->	
+        </div>
+    </div>
+    
+    </div><!--end content area-->
+    
+    <!-- Footer Starts -->
+    <!--footer start-->
+    
+    <!--footer end-->
+    <!-- Footer Ends -->
+    
+    <!-- Scripts Starts -->
     <script src="assets/js/jquery-1.12.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
